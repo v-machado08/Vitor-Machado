@@ -9,6 +9,8 @@
 int main() {
     char nome1 [50];// Nome da cidade 1
     char nome2 [50];
+    char estado1 [50];
+    char estado2[50];
     int população1, np1, codigo1; //Variáveis inteiras (População, pontos turísticos e código da cidade.)
     int população2, np2, codigo2;
     float area1, pib1; //Variáveis ponto flutuante da cidade 1 
@@ -21,6 +23,10 @@ int main() {
     
     printf ("Digite o nome da cidade 1: ");
         scanf("%s", nome1); //Solicita a entrada do nome da primeira cidade
+
+
+    printf ("Digite o estado da cidade 1: ");
+         scanf("%s", estado1); //Solicita o nome do estado na cidade 1
 
 
     printf("Digite o número da população da cidade 1: ");
@@ -44,7 +50,11 @@ int main() {
 
 
     printf ("Digite o nome da cidade 2: "); //Solicita a entrada do nome da segunda cidade
-        scanf("%s", &nome2);
+        scanf("%s", nome2);
+
+
+    printf ("Digite o estado da cidade 2: ");
+         scanf("%s", estado2); //Solicita a entrada do nome do estado na cidade dois
 
 
     printf("Digite o número da população da cidade 2: "); //Solicita a entrada do número da populção da segunda cidade 
